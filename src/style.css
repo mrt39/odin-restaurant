@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&display=swap');
+
+
+.title {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  
+.luigiPic{
+    margin-top: 5rem;
+}
+
+.homeTextContainer{
+    text-align: center;
+}
+
+  nav {
+    height: 50px;
+    width: 100%;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 15px;
+    
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #FFFFFF;
+    color: green;
+  }
+
+.menuPage{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuTitle{
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-top: 3rem;
+}
+
+.menuContainer{
+  display: flex;
+  margin-top: 3rem;
+  border: solid brown 10px;
+  width: 50%;
+}
+
+.menuText{
+  font-size: 20px;
+  align-self: center;
+}
+
+.menuPic{
+  width: 40%;
+}
+
+
+.contactPage{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactTitle{
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-top: 3rem;
+}
+
+
+.contactContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  width: 60%;
+}
+
+.contactPara{
+  font-size: 25px;
+  align-self: center;
+}
+
+.mapPic{
+  width: 50%;
+}
